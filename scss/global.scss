@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin:0;
+}
+@import 'nav';
+@import 'header';
+@import 'services';
+@import 'portfolio';
+@import 'team';
+@import 'contact';
+@import 'footer';
+

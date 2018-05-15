@@ -1,0 +1,52 @@
+.navbar {
+    background-color: transparent;
+    position: fixed;
+    z-index: 10;
+    transition: all 0.4s;
+    width: 100%;
+    .navbar-brand {
+
+        color: #FFF;
+        font-family: 'Montserrat', sans-serif;
+        transition: all 0.4s;
+        font-size: 20px;
+        padding: 10px;
+
+        text-decoration: none;
+        &:hover {
+            color: #0ED8D6;
+        }
+
+    }
+
+    ul {
+        text-align: right;
+        margin: 0;
+        list-style: none;
+
+        li {
+
+            display: inline-block;
+            padding: 10px;
+        }
+        a {
+
+            text-transform: uppercase;
+            font-weight: 800;
+            font-size: 20px;
+            text-decoration: none;
+            color: #fff;
+            &:hover {
+                color: #0ED8D6;
+            }
+
+        }
+
+
+    }
+    &.scrolled {
+        background-color: rgba(14, 216, 214, 0.6);
+
+
+    }
+}

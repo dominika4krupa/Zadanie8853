@@ -1,0 +1,26 @@
+@media all and (max-width: 991px) {
+    #main-nav,
+    #main-nav.scrolled {
+        background-color: #FFF;
+    }
+    
+    #main-nav a,
+    #main-nav.scrolled a {
+        color: #0ED8D6;
+    }
+}
+
+@media all and (max-width: 768px) {
+    #header .header-inner h1 {
+        font-size: 40px;
+    }
+    
+    #header .header-inner h2 {
+        font-size: 30px;
+    }
+    
+    #team .team-member,
+    #contact input:not([type="submit"]){
+        margin-bottom: 20px;
+    }
+}

@@ -1,0 +1,279 @@
+body {
+    margin: 0;
+}
+
+/* helper */
+section {
+    padding: 60px 0;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.social-media a {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #000;
+    transition: all 0.4s;
+    border-radius: 50%;
+}
+
+.social-media a:hover {
+    background-color: #0ED8D6;
+}
+
+.social-media a .fa {
+    color: #FFF;
+    font-size: 25px;
+    line-height: 50px;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+/* navigation */
+#main-nav {
+    background-color: transparent;
+    transition: all 0.4s;
+}
+
+#main-nav a {
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    transition: all 0.4s;
+}
+
+#main-nav a:hover {
+    color: #0ED8D6;
+}
+
+#main-nav #navbarSupportedContent a {
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+#main-nav.scrolled {
+    background-color: rgba(14, 216, 214, 0.6);
+}
+
+
+/*
+ header 
+#header {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('../img/header/pictures_on_the_wall.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#header .header-inner {
+    text-align: center;
+    color: #FFF;
+}
+
+#header .header-inner h1,
+#header .header-inner h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#header .header-inner h1 {
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 65px;
+}
+
+#header .header-inner .header-btn,
+input[type="submit"]{
+    background-color: #0ED8D6;
+    border: 1px solid #0ED8D6;
+    color: #FFF;
+    text-transform: uppercase;
+    transition: all 0.4s;
+}
+
+#header .header-inner .header-btn:hover,
+input[type="submit"]:hover {
+    background-color: #FFF;
+    color: #0ED8D6;
+}
+*/
+
+/*
+ services 
+#services {
+    text-align: center;
+}
+
+#services .fa {
+    background-color: #0ED8D6;
+    border: 1px solid #0ED8D6;
+    font-size: 30px;
+    border-radius: 50%;
+    line-height: 50px;
+    width: 50px;
+    height: 50px;
+    color: #FFF;
+    transition: all 0.4s;
+}
+
+#services .fa:hover {
+    transform: rotate(360deg);
+    background-color: #FFF;
+    color: #0ED8D6;
+}
+*/
+
+/*
+ portfolio 
+#portfolio {
+    background-color: #F7F7F7;
+}
+
+#portfolio .portfolio-item {
+    background-color: #FFF;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+#portfolio .portfolio-item h3 {
+    margin-top: 15px;
+}
+
+#portfolio .portfolio-item .overflow {
+    overflow: hidden;
+    height: 300px;
+}
+
+#portfolio .portfolio-item .overflow .background {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    transition: all 0.4s;
+}
+
+#portfolio .portfolio-item .overflow .background:hover {
+    transform: scale(1.5);
+}
+
+#portfolio .portfolio-item .overflow .background .mask {
+    background-color: rgba(14, 216, 214, 0.6);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: all 0.4s;
+}
+
+#portfolio .portfolio-item .overflow .background .mask:hover {
+    opacity: 1;
+}
+
+#portfolio .portfolio-item .overflow .background .mask .fa {
+    color: #FFF;
+    font-size: 30px;
+}
+
+#portfolio-item-1 {
+    background-image: url('../img/portfolio/box_of_cookies.jpg');
+}
+
+#portfolio-item-2 {
+    background-image: url('../img/portfolio/chaotic_paint.jpg');
+}
+
+#portfolio-item-3 {
+    background-image: url('../img/portfolio/chestnut_on_bracket.jpg')
+}
+
+#portfolio-item-4 {
+    background-image: url('../img/portfolio/child_with_blue_paint.jpg');
+}
+
+#portfolio-item-5 {
+    background-image: url('../img/portfolio/house_with_blue_doors.jpg');
+}
+
+#portfolio-item-6 {
+    background-image: url('../img/portfolio/typing_on_laptop.jpg');
+}
+*/
+
+/*
+ team 
+#team header {
+    margin-bottom: 50px;
+}
+
+#team figure img {
+    margin-bottom: 20px;
+}
+
+#team figure figcaption {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+}
+*/
+
+/*
+ contact 
+#contact {
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('../img/footer/world-map.jpg');
+    background-position: center;
+    background-size: cover;
+    color: #FFF;
+}
+
+#contact input:not([type="submit"]) {
+    height: 50px;
+}
+
+#contact input[type="submit"] {
+    margin-top: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 5px;
+}
+*/
+
+/* footer */
+footer .footer-nav ul {
+    list-style: none;
+}
+
+footer .footer-nav ul li {
+    display: inline-block;
+}
+
+footer .line-height {
+    line-height: 70px;
+}
+
+footer p,
+footer ul {
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
